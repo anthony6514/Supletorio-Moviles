@@ -3,7 +3,7 @@ import React from 'react';
 import { View, Text, Button } from 'react-native';
 import { NavigationProp } from '@react-navigation/native';
 
-const HomeScreen = ({ navigation }: { navigation: NavigationProp<any> }) => {
+const Screen1 = ({ navigation }: { navigation: NavigationProp<any> }) => {
   return (
     <View>
       <Text>¡Bienvenido a la evaluación!</Text>
@@ -20,4 +20,4 @@ const HomeScreen = ({ navigation }: { navigation: NavigationProp<any> }) => {
     </View>
   );
 };
-export default HomeScreen;
+export default Screen1;
